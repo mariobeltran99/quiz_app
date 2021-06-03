@@ -21,9 +21,9 @@ class _QuizAppState extends State<QuizApp> {
         appBar: AppBar(
           title: Text('True Quiz'),
           centerTitle: true,
-          backgroundColor: Colors.blueGrey.shade700,
+          //backgroundColor: Colors.blueGrey.shade700,
         ),
-        backgroundColor: Colors.blueGrey.shade500,
+        //backgroundColor: Colors.blueGrey.shade500,
         body: Builder(
           builder: (BuildContext context) => Container(
             child: Column(
@@ -45,10 +45,10 @@ class _QuizAppState extends State<QuizApp> {
                     child: Center(child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(questionBank[_currentQuestionIndex].questionStatement,
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 17.0
-                        ),
+                        // style: TextStyle(
+                        //   color: Colors.white,
+                        //   fontSize: 17.0
+                        // ),
                       ),
                     )
                     ),
